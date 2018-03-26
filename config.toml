@@ -8,12 +8,12 @@ theme = "even"
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 5                                              # 首页每页显示的文章数
-disqusShortname = ""      # disqus_shortname
+disqusShortname = "peacechurch"      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "PCK"
+  name = "Peack Church"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -21,12 +21,12 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "首頁"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "詩歌"
   weight = 20
   identifier = "archives"
   url = "/post/"
